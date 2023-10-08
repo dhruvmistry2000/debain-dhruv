@@ -58,12 +58,19 @@ cd Nordzy-cursors
 cd $builddir
 rm -rf Nordzy-cursors
 
-# Install brave-browser
+# Install chrome-browser
 nala install apt-transport-https curl -y
 nala update
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
-sudo apt-get install -f
+
+#Install VS code
+sudo apt-get update
+sudo apt install software-properties-common apt-transport-https wget
+wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add –
+sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+sudo apt-get install code
+
 
 # Enable graphical login and change target from CLI to GUI
 systemctl enable lightdm
