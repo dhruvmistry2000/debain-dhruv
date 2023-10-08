@@ -5,7 +5,7 @@ Debian customizations from Chris Titus Tech
 
 ```
 git clone https://github.com/dhruvmistry2000/debian-dhruv
-cd debian-titus
+cd debian-dhruv
 sudo ./install.sh
 ```
 
