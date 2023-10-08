@@ -1,5 +1,5 @@
 # Debian-dhruv
-Debian customizations from Chris Titus Tech
+Debian customizations from Dhruv Mistry
  
 ### To install:
 
