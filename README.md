@@ -6,6 +6,8 @@ Debian customizations from Dhruv Mistry
 ```
 git clone https://github.com/dhruvmistry2000/debian-dhruv
 cd debian-dhruv
+sudo chmod +777 install.sh
+sudo su
 sudo ./install.sh
 ```
 
